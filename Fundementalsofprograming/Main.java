@@ -14,7 +14,8 @@ public class Main{
         // change subject1 and subject2 grade
         s1.updateGrade("Camputer Architecture", 1.0);
         s1.updateGrade("Fundementals of Programming", 1.0);
-
+        s1.calculateAverage(); // its not necesary to call here bc average is calcualed in updateGrade method but i just called it to show that it works
+        
         System.out.println(s1.getaverage());
         s1.honorStudentMessage();
         System.out.println(s1.toString());
